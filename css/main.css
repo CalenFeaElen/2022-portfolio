@@ -88,14 +88,15 @@ textarea {
    ========================================================================== */
 /* Base Styles---------------------------------------------------------------*/
 body {
-  background: #a0aabe ;  
+  background: #a0aabe;
   font-family: 'Anonymous Pro', monospace;
 }
+
 /* Header Styles -------------------------------------------------------------*/
-  header  {
-    border-bottom: black solid 2px;
-    width: 100vw;
-  }
+header {
+  border-bottom: black solid 2px;
+  width: 100vw;
+}
 
 /* Main Styles----------------------------------------------------------------*/
 .hero img {
@@ -130,19 +131,19 @@ header {
   border-bottom: #000 solid 2px;
 }
 
-  .logo img {
+.logo img {
   height: 170px;
 }
 
-.website-name{
+.website-name {
   display: none;
 }
 
-  .mushroom {
-    display: none;
+.mushroom {
+  display: none;
 }
 
-.navigation ul{
+.navigation ul {
   list-style: none;
   display: flex;
   flex-flow: row;
@@ -159,14 +160,14 @@ header {
   font-family: 'Calistoga', cursive;
 }
 
-  main {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    min-height: 500px;
+main {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  min-height: 500px;
 }
 
-.hero img{
+.hero img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -178,6 +179,7 @@ header {
   padding-left: 20px;
   padding-right: 15px;
   font-weight: bold;
+  font-size: ;
 }
 
 .flourish {
@@ -185,25 +187,25 @@ header {
 }
 
 footer {
-    min-width: 400px;
-    text-align: center;
+  min-width: 400px;
+  text-align: center;
 }
 
 .follow-me h3 {
-  font-family:'Calistoga', cursive;
+  font-family: 'Calistoga', cursive;
   text-align: center;
 }
 
 .sm-links {
-  display:  flex;
+  display: flex;
   flex-flow: row;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.github{
+.github {
   max-height: 70px;
-  max-width:  60px;
+  max-width: 60px;
 }
 
 .linkedin {
@@ -313,97 +315,98 @@ footer {
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 
-/*Header Styles --------------------------------------------------------------*/
+  /*Header Styles --------------------------------------------------------------*/
 
-header {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: 
-  ".logo  .box-2" 
-}
+  header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      ".logo  .box-2"
+  }
 
-.logo {
-  border: none;
-}
+  .logo {
+    border: none;
+  }
 
-.box-2 {
- display: grid;
- grid-template-columns: 1fr 1fr;
- grid-template-rows: 1fr 1fr;
-}
+  .box-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 
-.website-name {
-  display: grid;
-  grid-column: 1 / span 2;
-  grid-row: 1 / span 1;
-  font-size: 1.5em;
-}
+  .website-name {
+    display: grid;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+    font-size: 1.5em;
+  }
 
-.website-name h1 {
-  margin-bottom: 5px;
-}
+  .website-name h1 {
+    margin-bottom: 5px;
+  }
 
-.navigation {
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr;
-  grid-column: 1 / span 2;
-  grid-row: 2 / span 1;
-}
+  .navigation {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+  }
 
-.mushroom {
-  min-width: 100px;
-  display: contents;
-}
-.mushroom img {
-  max-width: 80px;
-  max-height: 80px;
-  justify-self: center;
-  padding-left: 50px;
-  align-self: end;
-}
+  .mushroom {
+    min-width: 100px;
+    display: contents;
+  }
 
-.navigation ul {
-  justify-content: center;
-  min-width: 300px;
-  align-self: end;
-  margin-left: 0;
-}
+  .mushroom img {
+    max-width: 80px;
+    max-height: 80px;
+    justify-self: center;
+    padding-left: 50px;
+    align-self: end;
+  }
 
-.navigation li  {
-  padding-left: 15px;
-}
+  .navigation ul {
+    justify-content: center;
+    min-width: 300px;
+    align-self: end;
+    margin-left: 0;
+  }
 
-
-
-/* Main Styles-----------------------------------------------------------------*/
+  .navigation li {
+    padding-left: 15px;
+  }
 
 
-main {
-  min-height: 750px;
-}
 
-.hero img {
-  min-width: 500px;
-  max-width: 550px;
-}
+  /* Main Styles-----------------------------------------------------------------*/
 
-.intro p {
-  max-width: 500px;
-}
 
-.flourish {
-  display: contents;
-  max-height: 75px;
- }
+  main {
+    min-height: 750px;
+  }
 
-.flourish img {
-  max-width: 350px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .hero img {
+    min-width: 500px;
+    max-width: 550px;
+  }
+
+  .intro p {
+    max-width: 500px;
+  }
+
+  .flourish {
+    display: contents;
+    max-height: 75px;
+  }
+
+  .flourish img {
+    max-width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 
 
@@ -413,62 +416,63 @@ main {
 }
 
 @media only screen and (min-width: 64em) {
+
   /* Style adjustments for viewports that meet the condition */
-/* Header Styles---------------------------------------------------*/
-header {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr 1fr;
-  max-height: 300px;
-}
+  /* Header Styles---------------------------------------------------*/
+  header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    max-height: 300px;
+  }
 
 
-.logo img {
-  height: 300px;
-}
+  .logo img {
+    height: 300px;
+  }
 
-.logo {
-  justify-self: start;
-  padding-left: 20px;
-}
+  .logo {
+    justify-self: start;
+    padding-left: 20px;
+  }
 
-.box-2 {
-  margin-left: 100px;
-}
+  .box-2 {
+    margin-left: 100px;
+  }
 
-.mushroom img {
-  min-width: 150px;
-  min-height: 150px;
-  justify-self: center;
-}
+  .mushroom img {
+    min-width: 150px;
+    min-height: 150px;
+    justify-self: center;
+  }
 
-.website-name {
-  font-size: 2em;
-  justify-self: end;
-  padding-right: 10px;
-}
+  .website-name {
+    font-size: 2em;
+    justify-self: end;
+    padding-right: 10px;
+  }
 
-.navigation ul {
-  justify-self: end;
-}
+  .navigation ul {
+    justify-self: end;
+  }
 
 
 
-/* Main Styles -----------------------------------------------------*/
+  /* Main Styles -----------------------------------------------------*/
 
-.hero img {
- min-width: 650px;
- max-height: 450px;
-}
+  .hero img {
+    min-width: 650px;
+    max-height: 450px;
+  }
 
-.intro p {
-  max-width: 700px;
-  font-size: 1em;
-}
+  .intro p {
+    max-width: 700px;
+    font-size: 1.25em;
+  }
 
-.flourish {
-  max-width: 500px;
-}
+  .flourish {
+    max-width: 500px;
+  }
 
 
 
@@ -484,9 +488,9 @@ header {
 
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -497,6 +501,7 @@ header {
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -513,11 +518,11 @@ header {
   }
 
   a[href]::after {
-    content: " (" attr(href) ")";
+    content: " ("attr(href) ")";
   }
 
   abbr[title]::after {
-    content: " (" attr(title) ")";
+    content: " ("attr(title) ")";
   }
 
   /*
@@ -564,4 +569,3 @@ header {
     page-break-after: avoid;
   }
 }
-
