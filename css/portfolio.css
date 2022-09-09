@@ -112,6 +112,7 @@ body {
   align-items: center;
   height: 100%;
   margin-left: 0;
+  width: 100%;
 }
 
 /*HEADER STYLES ----------------------------------------------------------*/
@@ -197,8 +198,12 @@ header {
 main {
   padding-top: 20px;
   padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   background: #f45b69;
+  background-size: cover;
   min-height: 450px;
+  width: 100vw;
 }
 
 .full-size {

@@ -117,6 +117,7 @@ body {
   align-items: center;
   height: 100%;
   margin-left: 0;
+  min-width: 0;
 
 }
 
@@ -147,7 +148,7 @@ header {
   display: grid;
   grid-row: 1 / 2;
   grid-column: 2 / 3;
-  text-align: end;
+  text-align: center;
 }
 
 .website-name h1 {
@@ -204,7 +205,7 @@ header {
 main {
   background: #253D5B;
   color: #f8f8f3;
-  width: 100%;
+  width: 100vw;
   padding-bottom: 25px;
 }
 

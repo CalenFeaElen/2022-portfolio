@@ -124,7 +124,7 @@ body {
 header {
   background: #90beab;
   text-align: center;
-  min-width: 400px;
+  min-width: 0px;
   display: grid;
   grid-template-rows: 3fr 1fr;
   grid-template-columns: 2fr 2fr 1fr;
@@ -135,7 +135,8 @@ header {
   display: grid;
   grid-row: 1 / 2;
   grid-column: 1 / 2;
-  min-width: 200px;
+  min-width: 0;
+  margin-left: 5px;
 }
 
 .logo img {
@@ -146,8 +147,8 @@ header {
 .website-name {
   display: grid;
   grid-row: 1 / 2;
-  grid-column: 2 / 3;
-  text-align: end;
+  grid-column: 2 / 4;
+  text-align: center;
 }
 
 .website-name h1 {
@@ -185,7 +186,7 @@ header {
 }
 
 .home {
-  text-align: end;
+  text-align: center;
   grid-row: 1 / 2;
   grid-column: 3 / 4;
   margin-right: 10px;
@@ -395,6 +396,7 @@ footer {
     text-align: center;
     min-width: 300px;
     max-height: 200px;
+    grid-column: 2 / 3;
   }
 
   .website-name h1 {
@@ -415,6 +417,7 @@ footer {
   }
 
   .home {
+    text-align: end;
     margin-right: 20px;
   }
 
